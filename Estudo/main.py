@@ -1,4 +1,4 @@
-'''
+
 print("Hello world!")
 
 # 1-Utilizando Variáveis
@@ -16,8 +16,8 @@ age = input("Please enter your age: ")
 weight = input("Please enter your weight: ")
 
 print(name, age, weight)
-'''
-'''
+
+
 # 2-Conversões ou CAST
 
 name = input("Please enter your name: ")
@@ -39,8 +39,8 @@ print(f"Name: {name}, Age: {age}, Weight: {weight}")
 
 print(f"Type of Name: {type(name)}, Type of Age: {type(age)}, Type of Weight: {type(weight)}")
 
-'''
-'''
+
+
 # 3-Operadores Matematicos
 
 soma = 1 + 1
@@ -51,8 +51,7 @@ potencia = 2 ** 2
 
 print(f"Soma: 1 + 1 = {soma}, Subtracao: 2 - 1  = {subtracao}, Multiplicacao: 2 * 2 = {multiplicacao}, Divisao: 10 / 2 = {divisao}, Potencia: 2 ** 2 = {potencia}")
 
-'''
-'''
+
 # 4-Condicionais
 #.lower() é uma funçao utilizada para converter o parametro para lower case.
 # exemplo de outra forma de utilizar: name_lower = name.lower().
@@ -77,8 +76,8 @@ elif salario > 6000 and salario <= 15000:
 else:
     print(f"{name.capitalize()}, você é um Especialista ou Gerente de Projetos")
 
-'''
-'''
+
+
 # 5-Listas ou Arrays
 
 numeros_ar = [1, 2, 3]
@@ -88,9 +87,9 @@ print(numeros_ar[0])
 print(numeros_ar[1])
 print(numeros_ar[2])
 
-'''
+
 # 6-Loops
-'''
+
 notas = []
 
 for x in range(5):
@@ -105,10 +104,9 @@ for n in notas:
     nota = n[1]
     print("O RM", codigo_aluno, "tirou a nota:", nota)
 
-'''
 
 # 7- Dicionarios ou Classes(javascript) ou Structs(C)
-'''
+
 pessoa = {
     "nome" : "Programador Python",
     "idade": 34,
@@ -118,4 +116,4 @@ pessoa = {
 print(pessoa['nome'])
 print(pessoa['idade'])
 print(pessoa['peso'])
-'''
+
